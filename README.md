@@ -1,4 +1,4 @@
-# ex_changerate
+# ex_changerate [![build](https://img.shields.io/travis/81dr/ex_changerate?style=flat-square)](https://travis-ci.org/81dr/ex_changerate) ![license](https://img.shields.io/github/license/81dr/ex_changerate?style=flat-square) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/81dr/ex_changerate/issues)
 
 Exchangerate is a free exchange & crypto rates API, no access key is required.
 
