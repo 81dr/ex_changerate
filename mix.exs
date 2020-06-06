@@ -8,6 +8,8 @@ defmodule ExChangerate.MixProject do
       version: "0.1.0",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
+      description: description(),
+      package: package(),
       deps: deps()
     ]
   end
@@ -30,6 +32,21 @@ defmodule ExChangerate.MixProject do
       {:ex_doc, "~> 0.22", only: :dev, runtime: false},
       {:inch_ex, "~> 2.0", only: [:dev, :test], runtime: false},
       {:credo, "~> 1.4", only: [:dev, :test], runtime: false}
+    ]
+  end
+
+  defp description do
+    """
+    Elixir client for exchangerate.host API
+    """
+  end
+
+  defp package do
+    [
+      files: ["README.md", "LICENSE", "mix.exs", "lib"],
+      maintainers: ["81dr"],
+      licenses: ["0BSD"],
+      links: %{"GitHub" => "https://github.com/81dr/ex_changerate"}
     ]
   end
 end
