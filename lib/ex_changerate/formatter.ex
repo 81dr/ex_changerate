@@ -7,6 +7,7 @@ defmodule ExChangerate.Formatter do
   def format(endpoint, []), do: base(endpoint) <> "?"
   def format(endpoint, date: date), do: base(endpoint) <> date
   def format(endpoint, base: base), do: base(endpoint) <> "?" <> "base=" <> base
+
   def format(endpoint, base: base, symbols: symbols),
     do: base(endpoint) <> "?" <> "base=" <> base <> "&" <> "symbols=" <> symbols
 
