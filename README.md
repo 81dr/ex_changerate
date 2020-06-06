@@ -1,4 +1,4 @@
-# ex_changerate [![build](https://img.shields.io/travis/81dr/ex_changerate?style=flat-square)](https://travis-ci.org/81dr/ex_changerate) ![license](https://img.shields.io/github/license/81dr/ex_changerate?style=flat-square) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/81dr/ex_changerate/issues)
+# ex_changerate [![build](https://img.shields.io/travis/81dr/ex_changerate?style=flat-square)](https://travis-ci.org/81dr/ex_changerate) ![license](https://img.shields.io/github/license/81dr/ex_changerate?style=flat-square) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/81dr/ex_changerate/issues) [![hex](https://img.shields.io/hexpm/v/ex_changerate?style=flat-square)](https://hex.pm/packages/ex_changerate)
 
 Exchangerate is a free exchange & crypto rates API, no access key is required.
 
@@ -39,7 +39,7 @@ iex> ExChangerate.SupportedSymbols.get
 ```
 ----
 
-Additional parameters can be provided if they are supported by given endpoint. Below techniques can be used depending on preferences, e.g. for CurrencyConvert, comma separated:
+Additional parameters can be provided if they are supported by given endpoint. Below techniques can be used depending on preferences, e.g. for converting currencies, comma separated:
 ```elixir
 iex> ExChangerate.ConvertCurrency.get([from: "BTC", to: "USD"], amount: 2, date: "2020-04-04")
 ```
@@ -53,6 +53,7 @@ iex> ExChangerate.ConvertCurrency.get([from: "BTC", to: "USD"], options: "amount
 ```elixir
 def deps do
   [
-      {:ex_changerate, git: "git://github.com/81dr/ex_changerate.git"}
+      {:ex_changerate, "~> 0.1"}
   ]
+end
 ```
