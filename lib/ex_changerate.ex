@@ -1,9 +1,7 @@
 defmodule ExChangerate do
   @moduledoc false
 
-  @service Application.get_env(:ex_changerate, :api_instance)
-
   def base_url do
-    @service
+    Application.fetch_env!(:ex_changerate, :api_instance)
   end
 end

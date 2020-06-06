@@ -21,7 +21,7 @@ use Mix.Config
 #     config :logger, level: :info
 #
 
-config :ex_changerate, api_instance: "https://api.exchangerate.host"
+# config :ex_changerate, api_instance: "https://api.exchangerate.host"
 
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment

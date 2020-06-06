@@ -15,7 +15,8 @@ defmodule ExChangerate.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger, :httpoison]
+      extra_applications: [:logger, :httpoison],
+      env: [api_instance: "https://api.exchangerate.host"]
     ]
   end
 
