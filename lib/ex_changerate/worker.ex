@@ -3,7 +3,7 @@ defmodule ExChangerate.Worker do
   def call(url) do
     case HTTPoison.get(url) do
       {:ok, %HTTPoison.Response{body: body, headers: headers, status_code: 200}} ->
-        if content_type_header(headers) == "application/json; charset=utf-8" do
+        if content_type_header(headers) =~ "application/json" do
           case Poison.decode(body) do
             {:ok, decoded} ->
               content_type_header(headers)
