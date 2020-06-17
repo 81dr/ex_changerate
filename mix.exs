@@ -49,7 +49,7 @@ defmodule ExChangerate.MixProject do
       maintainers: ["81dr"],
       licenses: ["0BSD"],
       links: %{
-        "Changelog" => "https://github.com/81dr/blob/master/CHANGELOG.md",
+        "Changelog" => "https://github.com/81dr/ex_changerate/blob/master/CHANGELOG.md",
         "GitHub" => "https://github.com/81dr/ex_changerate"
       }
     ]
