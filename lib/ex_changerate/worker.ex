@@ -6,7 +6,6 @@ defmodule ExChangerate.Worker do
         if content_type_header(headers) =~ "application/json" do
           case Poison.decode(body) do
             {:ok, decoded} ->
-              content_type_header(headers)
               {:ok, decoded}
 
             {:error, error} ->
