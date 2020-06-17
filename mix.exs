@@ -2,7 +2,7 @@ defmodule ExChangerate.MixProject do
   @moduledoc false
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
 
   def project do
     [
@@ -48,7 +48,10 @@ defmodule ExChangerate.MixProject do
       files: ["README.md", "LICENSE", "mix.exs", "lib"],
       maintainers: ["81dr"],
       licenses: ["0BSD"],
-      links: %{"GitHub" => "https://github.com/81dr/ex_changerate"}
+      links: %{
+        "Changelog" => "https://github.com/81dr/blob/master/CHANGELOG.md",
+        "GitHub" => "https://github.com/81dr/ex_changerate"
+      }
     ]
   end
 end
