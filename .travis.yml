@@ -1,5 +1,9 @@
 language: elixir
 elixir:
   - 1.7.4
+  - 1.8.2
+otp_release:
+  - 20.3
+  - 21.3
 script: "MIX_ENV=test mix do deps.get, deps.compile, test test/ex_changerate/*.exs --cover"
 after_script: "mix inch.report"
