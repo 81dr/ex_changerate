@@ -1,4 +1,4 @@
-# ex_changerate [![build](https://img.shields.io/travis/81dr/ex_changerate?style=flat-square)](https://travis-ci.org/81dr/ex_changerate) ![license](https://img.shields.io/github/license/81dr/ex_changerate?style=flat-square) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/81dr/ex_changerate/issues) [![hex](https://img.shields.io/hexpm/v/ex_changerate?style=flat-square)](https://hex.pm/packages/ex_changerate)
+# ex_changerate [![build](https://img.shields.io/travis/81dr/ex_changerate?style=flat-square)](https://travis-ci.org/81dr/ex_changerate) [![license](https://img.shields.io/hexpm/l/ex_changerate?style=flat-square)](https://github.com/81dr/ex_changerate/blob/master/LICENSE) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/81dr/ex_changerate/issues) [![hex](https://img.shields.io/hexpm/v/ex_changerate?style=flat-square)](https://hex.pm/packages/ex_changerate) 
 
 Exchangerate is a free exchange & crypto rates API, no access key is required.
 
